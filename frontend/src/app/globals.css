@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 @layer base {
-    .layout {
-        width: 1200px;
-        max-width: 1200px;
-    }
+	.layout {
+		width: 1200px;
+		max-width: 1200px;
+	}
+
+	.bg-primary {
+		background: linear-gradient(-180deg, #f53d2d, #f63);
+	}
 }
